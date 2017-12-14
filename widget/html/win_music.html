@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,initial-scale=1.0,width=device-width"/>
+    <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+    <title>甜椒广场舞</title>
+    <link rel="stylesheet" type="text/css" href="../css/api.css" />
+    <link rel="stylesheet" type="text/css" href="../css/aui.css" />
+    <style type="text/css">
+    html,body{
+        height: 100%;
+    }
+    .aui-bar-dark {background-color:#E65A65;}
+    #music {padding:50px 0; text-align:center;}
+    #music img {border-radius:100px; width:200px; height:200px;}
+    #title {text-align:center;}
+    .aui-btn-block {padding:10px 0; font-size:14px;}
+    .aui-btn-danger {background-color:#E65A65;}
+    </style>
+</head>
+<body>
+    <header id="aui-header" class="aui-bar aui-bar-nav aui-bar-dark">
+        甜椒广场舞
+    </header>
+    <div id='music'>
+        <img src='../image/music.png' />
+    </div>
+    <h5 id='title'>买买买 - By2</h5>
+    <div class="aui-content">
+        <div class="aui-range" style="margin-top:30px;">
+            <input type="range" class="aui-range-danger" value="30" max="100" min="1" step="1" id="range" />
+        </div>
+    </div>
+    <div class="aui-btn aui-btn-danger aui-btn-block">播放音乐(start)</div>
+    <br />
+    <div class="aui-btn aui-btn-danger aui-btn-block">停止播放(pause)</div>
+</body>
+<script type="text/javascript" src="../script/api.js"></script>
+<script type="text/javascript" src="../script/aui.js"></script>
+<script type="text/javascript">
+    apiready = function(){
+
+    }
+</script>
+</html>
